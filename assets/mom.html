@@ -9,17 +9,17 @@
    <script defer src="todo-app.js"></script>
    <script>
       document.addEventListener('DOMContentLoaded', function(){
-         let todoDad = [];
-         createTodoApp(document.getElementById('todo-app'), 'Дела папы', todoDad,'session3');
+         let todoMom = [];
+         createTodoApp(document.getElementById('todo-app'), 'Дела мамы',todoMom,'session2');
       });
    </script>
 </head>
 <body>
    <div class="container mb-5">
       <div class="nav">
-         <a href="index.html" class="nav-link">Мои дела</a>
-         <a href="dad.html" class="nav-link">Дела папы</a>
-         <a href="mom.html" class="nav-link">Дела мамы</a>
+        <a href="index.html" class="nav-link">Мои дела</a>
+        <a href="./assets/dad.html" class="nav-link">Дела папы</a>
+        <a href="./assets/mom.html" class="nav-link">Дела мамы</a>
       </div>
    </div>
    <div class="container" id="todo-app"></div>
